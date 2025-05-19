@@ -9,4 +9,9 @@ public class ClientDTO {
     private String nom;
     private String email;
     private List<CreditDTO> credits;
+    
+    // Manually add setter method
+    public void setCredits(List<CreditDTO> credits) {
+        this.credits = credits;
+    }
 }
